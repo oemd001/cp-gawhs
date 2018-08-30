@@ -1,3 +1,4 @@
+sudo chmod 777 /etc/sysctl.conf
 #securing sysctl.conf
 echo "net.ipv4.icmp_echo_ignore_broadcasts = 1" >> /etc/sysctl.conf
 echo "net.ipv4.conf.all.accept_redirects = 0" >> /etc/sysctl.conf
