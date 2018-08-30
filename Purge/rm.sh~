@@ -12,6 +12,7 @@
 	sudo apt-get purge myheritage
 	sudo apt-get purge wireshark
 	#removes leftover directories
+	sudo apt-get autoremove
 	find / -name '*.mp3' -type f -delete
 	find / -name '*.mov' -type f -delete
 	find / -name '*.mp4' -type f -delete
