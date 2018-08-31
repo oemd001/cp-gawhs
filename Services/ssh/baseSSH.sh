@@ -1,5 +1,5 @@
 #This script will replace the /etc/ssh/ssh_config
-
+updatedb
 #This will replace the /etc/ssh/ssh_config
 cd /etc/ssh
 #Deletes previous files and replaces the ssh_config file with secured file
