@@ -16,4 +16,4 @@
 
 
 #--------Running automator scripts----
-sudo ./AntiVirus/automator.sh
+	sudo ./AntiVirus/automator.sh

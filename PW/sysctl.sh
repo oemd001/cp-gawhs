@@ -15,4 +15,4 @@ echo "net.ipv4.conf.all.rp_filter=1" >> /etc/sysctl.d/99-sysctl.conf
 #Kernel Security
 echo "kernel.kptr_restrict=2" >> /etc/sysctl.d/10-kernel-hardening.conf
 
-sudo chmod 770
+sudo chmod 770 /etc/sysctl.conf
