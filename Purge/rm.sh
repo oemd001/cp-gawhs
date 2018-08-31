@@ -11,6 +11,7 @@
 	sudo apt-get purge cainandable
 	sudo apt-get purge myheritage
 	sudo apt-get purge wireshark
+	sudo apt-get purge nmap
 	#removes leftover directories
 	find / -name '*.mp3' -type f -delete
 	find / -name '*.mov' -type f -delete
