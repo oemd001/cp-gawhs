@@ -14,14 +14,26 @@
 	sudo apt-get upgrade
 	clear
 
+#--------Running Misc. Automator Scripts-----
+	sudo ./AntiVirus/automator.sh 
+	sudo ./Purge/automator.sh
+	sudo ./PW/automator.sh
+	clear
 
-#--------Running automator scripts----
-sudo ./AntiVirus/automator.sh
+#--------Running Service Scripts
+function serviceJump {
 
-#--------Running Servicer Scripts-----
+}
+
 echo "What services are running? Choose samba, apache2 or ssh"
 read cotyn
 
 if [ "$contyn" = "ssh"]; then
-	./Services/ssh
-	
+	./Services/sshScript.sh
+	echo "ssh secured. Modify anything else accordingly"
+fi
+
+if [ "$contyn" = "samba"]; then
+	./Services/sambaScript.sh
+	echo "samba secured. Modify anything accordingly"
+fi
