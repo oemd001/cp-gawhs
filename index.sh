@@ -16,4 +16,12 @@
 
 
 #--------Running automator scripts----
-	sudo ./AntiVirus/automator.sh
+sudo ./AntiVirus/automator.sh
+
+#--------Running Servicer Scripts-----
+echo "What services are running? Choose samba, apache2 or ssh"
+read cotyn
+
+if [ "$contyn" = "ssh"]; then
+	./Services/ssh
+	
