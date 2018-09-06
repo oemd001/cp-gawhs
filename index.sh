@@ -20,10 +20,11 @@
 	sudo ./PW/automator.sh
 	clear
 
-#--------Running Service Scripts
-function serviceJump {
+#--------Running Service Scripts-------
 
-}
+read cotyn 
+
+while [ "cotyn" != false || "cotyn" != exit]; do
 
 echo "What services are running? Choose samba, apache2 or ssh"
 
@@ -39,3 +40,15 @@ if [ "$contyn" = "samba"]; then
 	./Services/sambaScript.sh
 	echo "samba secured. Modify anything accordingly"
 fi
+
+done
+
+#-------Unecessary services-------
+
+read cotyn 
+
+while [true]; do
+
+	netstat -peanut | gedit
+	netstat -tulpn | gedit
+	echo "What services are not needed? (Please refrence Boot Up Manager, or BUM for refrence)"

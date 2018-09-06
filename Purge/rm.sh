@@ -27,14 +27,19 @@
 	sudo apt-get purge tomcat
 	sudo apt-get purge tomcat6
 	sudo apt-get purge postgresql
-	sudo apt-get purge dnsmasq -y
+	sudo apt-get purge dnsmasq 
 	sudo apt-get purge vncserver
 	sudo apt-get purge tightvnc
 	sudo apt-get purge tightvnc-common -y
 	sudo apt-get purge tightvncserver
+	sudo apt-get purge php5
+	sudo apt-get purge vnc4server
+
+
 	#removes leftover directories
 	find . -name '*.mp3' -type f -delete
 	find . -name '*.mov' -type f -delete
+	sudo rm -rf
 	find . -name '*.mp4' -type f -delete
 	find . -name '*.avi' -type f -delete
 	find . -name '*.mpg' -type f -delete
