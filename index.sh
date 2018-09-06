@@ -26,6 +26,8 @@ function serviceJump {
 }
 
 echo "What services are running? Choose samba, apache2 or ssh"
+
+while [exit ==! false ]
 read cotyn
 
 if [ "$contyn" = "ssh"]; then
