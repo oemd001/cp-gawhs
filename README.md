@@ -18,4 +18,6 @@ Hello! This linux script was authored by Kenneth and Thomas. Still under constru
 To run this script, navigate to teh home directory, which is `$PWD/cp-gawhs`  
 Locate `index.sh`  
 Prior to running, please CHECK ALL COMMANDS! Remove unecessary commands. 
-To run, `./index.sh` 
+To run, `./index.sh`  
+## PSST  
+You might want to check `rm.sh`, just saying :)
