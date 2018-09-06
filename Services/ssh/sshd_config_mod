@@ -86,3 +86,6 @@ Subsystem sftp /usr/lib/openssh/sftp-server
 # PAM authentication, then enable this but set PasswordAuthentication
 # and ChallengeResponseAuthentication to 'no'.
 UsePAM yes
+
+#You can add user groups here. For example: AddGroups pipefitters
+#You can add users here. For example: AddUser Curtis_Lee
