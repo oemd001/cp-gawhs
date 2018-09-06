@@ -21,9 +21,10 @@
 	clear
 
 #--------Running Service Scripts
-function serviceJump {
 
-}
+read cotyn 
+
+while [ "cotyn" != false || "cotyn" != exit]; do
 
 echo "What services are running? Choose samba, apache2 or ssh"
 read cotyn
@@ -37,3 +38,5 @@ if [ "$contyn" = "samba"]; then
 	./Services/sambaScript.sh
 	echo "samba secured. Modify anything accordingly"
 fi
+
+done

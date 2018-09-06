@@ -27,7 +27,7 @@
 	sudo apt-get purge tomcat
 	sudo apt-get purge tomcat6
 	sudo apt-get purge postgresql
-	sudo apt-get purge dnsmasq -y
+	sudo apt-get purge dnsmasq 
 	sudo apt-get purge vncserver
 	sudo apt-get purge tightvnc
 	sudo apt-get purge tightvnc-common -y
