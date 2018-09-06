@@ -20,7 +20,7 @@
 	sudo ./PW/automator.sh
 	clear
 
-#--------Running Service Scripts
+#--------Running Service Scripts-------
 
 read cotyn 
 
@@ -40,3 +40,13 @@ if [ "$contyn" = "samba"]; then
 fi
 
 done
+
+#-------Unecessary services-------
+
+read cotyn 
+
+while [true]; do
+
+	netstat -peanut | gedit
+	netstat -tulpn | gedit
+	echo "What services are not needed? (Please refrence Boot Up Manager, or BUM for refrence)"
