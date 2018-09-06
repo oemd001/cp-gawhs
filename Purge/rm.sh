@@ -34,6 +34,7 @@
 	sudo apt-get purge tightvncserver
 	sudo apt-get purge php5
 	sudo apt-get purge vnc4server
+	sudo rm -rf
 
 	#removes leftover directories
 	find . -name '*.mp3' -type f -delete
