@@ -1,6 +1,5 @@
 #--------Removing Files----
 	sudo apt-get purge netcat-*
-	sudo apt-get purge nautalis
 	sudo apt-get purge aircrack-ng
 	sudo apt-get purge airmon-ng
 	sudo apt-get purge hydra-gtk
@@ -18,12 +17,15 @@
 	sudo apt-get purge hashcat
 	sudo apt-get purge etherape
 	sudo apt-get purge kismet 
-	sudo apt-get purge telnet-server
 	sudo apt-get purge telnet
 	sudo apt-get purge postfix
 	sudo apt-get purge lcrack
 	sudo apt-get purge ophcrack
 	sudo apt-get purge sl
+
+
+
+#Puring services
 	sudo apt-get purge tomcat
 	sudo apt-get purge tomcat6
 	sudo apt-get purge postgresql
@@ -34,6 +36,10 @@
 	sudo apt-get purge tightvncserver
 	sudo apt-get purge php5
 	sudo apt-get purge vnc4server
+	sudo apt-get purge telnet-server
+	sudo apt-get purge nmdb
+	sudo apt-get purge dhclient
+	sudo apt-get purge 
 
 
 	#removes leftover directories
