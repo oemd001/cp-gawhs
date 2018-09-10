@@ -22,26 +22,26 @@
 
 #--------Running Service Scripts-------
 
-read cotyn 
+##read cotyn 
 
-while [ "cotyn" != false || "cotyn" != exit]; do
+##while [ "cotyn" != false || "cotyn" != exit]; do
 
-echo "What services are running? Choose samba, apache2 or ssh"
+##echo "What services are running? Choose samba, apache2 or ssh"
 
-while [exit ==! false ]
-read cotyn
+##while [exit ==! false ]
+##read cotyn
 
-if [ "$contyn" = "ssh"]; then
-	./Services/sshScript.sh
-	echo "ssh secured. Modify anything else accordingly"
-fi
+##if [ "$contyn" = "ssh"]; then
+	##./Services/sshScript.sh
+	##echo "ssh secured. Modify anything else accordingly"
+##fi
 
-if [ "$contyn" = "samba"]; then
-	./Services/sambaScript.sh
-	echo "samba secured. Modify anything accordingly"
-fi
+##if [ "$contyn" = "samba"]; then
+	##./Services/sambaScript.sh
+	##echo "samba secured. Modify anything accordingly"
+#fi
 
-done
+##done
 
 #-------Unecessary services-------
 
