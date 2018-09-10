@@ -1,4 +1,6 @@
 #This script will replace the /etc/ssh/ssh_config
+
+#Updating the entire "Database." Not sure why this is required, but lets do it anyways
 updatedb
 #Deletes previous files and replaces the ssh_config file with secured file
 sudo chattr -i /etc/ssh/ssh_config
