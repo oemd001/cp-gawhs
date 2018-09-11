@@ -16,7 +16,7 @@
 	sudo apt-get purge nmap
 	sudo apt-get purge hashcat
 	sudo apt-get purge etherape
-	sudo apt-get purge kismet 
+	sudo apt-get purge kismet  
 	sudo apt-get purge telnet
 	sudo apt-get purge postfix
 	sudo apt-get purge lcrack
