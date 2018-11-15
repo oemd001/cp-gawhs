@@ -15,7 +15,7 @@
 	clear
 
 #--------Running Misc. Automator Scripts-----
-	sudo ./AntiVirus/automator.sh 
+	sudo ./automator.sh 
 	sudo ./Purge/automator.sh
 	sudo ./PW/automator.sh
 	clear
