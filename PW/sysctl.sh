@@ -1,4 +1,11 @@
+#This script will replace (And append) the /etc/sysctl.conf file
+
+#Updating the entire "Database." Not sure why this is required, but lets do it anyways
+updatedb
+#Replacing /etc/sysctl.conf file
+sudo chattr -i /etc/systl.conf
 sudo chmod 777 /etc/sysctl.conf
+
 
 #securing sysctl.conf
 echo "net.ipv4.icmp_echo_ignore_broadcasts = 1" >> /etc/sysctl.conf
