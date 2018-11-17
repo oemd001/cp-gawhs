@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #index.sh
 
 #runs everything

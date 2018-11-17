@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #--------Removing Files----
 	sudo apt-get purge netcat-*
 	sudo apt-get purge aircrack-ng
